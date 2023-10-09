@@ -1,0 +1,93 @@
+.loginContainer {
+  background-color: #ffffff;
+  height: 100vh;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginFormContainer {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 40px;
+  width: 40%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.formLogoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+}
+
+.formLabel {
+  color: #272727;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+.formInput {
+  border-radius: 5px;
+  border: 1px solid #7e858e;
+  color: #272727;
+  padding-left: 10px;
+  width: 100%;
+  height: 40px;
+  background-color: transparent;
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+.formInput::placeholder {
+  color: #272727;
+  padding-left: 10px;
+}
+
+.formSubmitButton {
+  color: #ffffff;
+  background-color: #6366f1;
+  border-radius: 5px;
+  border: 0;
+  width: 100%;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 5px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.errorMessage {
+  color: #ff0b37;
+  font-family: 'Roboto';
+}
+
+.loginPara {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.loginPara a {
+  text-decoration: none;
+  color: blue;
+}
+.headerLogo {
+
+  font-size: 28px;
+  font-family: Roboto;
+  color: #6055E6;
+}
+
+@media screen and (max-width: 767px) {
+  .loginContainer {
+    padding: 15px;
+  }
+
+  .loginFormContainer {
+    width: 100%;
+  }
+}

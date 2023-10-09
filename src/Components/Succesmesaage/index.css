@@ -1,0 +1,36 @@
+/* Success.css */
+.successContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(0, 128, 0, 0.2);
+  /* Green background with some opacity */
+}
+
+.successIcon {
+  color: #009900;
+  font-size: 72px;
+}
+
+.successMessage {
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-family: Roboto;
+
+}
+.successMessage h3
+{
+  color: #272722;
+  font-size: 32px;
+  
+}
+.successMessage p
+{
+  color: #272722;
+  font-size: 24px;
+  margin-top: 15px;
+  
+}
